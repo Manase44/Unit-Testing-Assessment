@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "embending unit testing in a grading system ",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "jest --verbose"
   },
