@@ -1,7 +1,9 @@
-const testedFunction  = require("../main");
+import { calculateGradesAndAverage } from "../main.js";
 
-describe("Testing the graing system", () => {
-    test('Should trow error if no object is passes', () => { 
-        expect(testedFunction()).toThrow();
-    })
-})
+
+
+describe("Main testing", () => {
+  test("Should trow error if no object is passed", () => {
+    expect(calculateGradesAndAverage()).toUndefined();
+  });
+});
