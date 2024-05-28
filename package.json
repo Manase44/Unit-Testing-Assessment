@@ -1,0 +1,23 @@
+{
+  "name": "unit-testing-assessment",
+  "version": "1.0.0",
+  "description": "embending unit testing in a grading system ",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "grading",
+    "system",
+    "test",
+    "scripts"
+  ],
+  "author": "Manase44",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
