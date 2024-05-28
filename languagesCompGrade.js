@@ -17,5 +17,3 @@ export const languagesAndCompStudiesGrade = (score) => {
     }
     return grade;
 }
-
-languagesAndCompStudiesGrade(80)
