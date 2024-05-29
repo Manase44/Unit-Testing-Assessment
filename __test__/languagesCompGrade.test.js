@@ -2,7 +2,7 @@ import { languagesAndCompStudiesGrade } from "../languagesCompGrade.js";
 
 describe("Languages / Computer Studies Grade", () => {
   test("should return A if the score is between 75 and 100", () => {
-    expect(languagesAndCompStudiesGrade(80)).toBe("A");
+    expect(languagesAndCompStudiesGrade(82)).toBe("A");
   });
   test("should return B if the score is between 65 and 74", () => {
     expect(languagesAndCompStudiesGrade(66)).toBe("B");
